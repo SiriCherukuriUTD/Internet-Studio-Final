@@ -15,3 +15,11 @@ targetElement.addEventListener("mouseout", function () {
 	this.innerText = "MY SPACE";
 	this.style = "cursor: pointer";
 });
+
+
+const marsIcon = document.getElementById("marsIcon");
+
+marsIcon.addEventListener("click", () => {
+  let modal = new bootstrap.Modal(document.getElementById('infoModal'));
+  modal.show();
+});
