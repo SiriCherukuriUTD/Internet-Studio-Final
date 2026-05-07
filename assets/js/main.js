@@ -31,7 +31,7 @@ function openCard(tileNumber) {
 
 function openCard(tileNumber) {
   const messages = {
-    1: "Trapped in Black Hole: You got sucked into a black hole. Consequences of journeying through deep dark space. Spacetime is warping, time is lost. At least you're not spending more money.",
+    1: "Black Hole Void: You got sucked into a black hole. Consequences of journeying through deep dark space. Spacetime is warping, time is lost. At least you're not spending more money.",
     2: "Jupiter Moons: Buy a few moons, just because you can. They weren't yours, but now you can feel like they are. In reality, nothing has changed.",
     3: "Saturn: You reach Saturn. You can't get through its massive rings of ice and rock. You were here, but nobody will know. You could return home, but nobody will believe you. Conquer on.",
     4: "Saturn Moons: Jupiter moons weren't enough to satisfy you. Buy a few more, maybe you'll feel accomplished then.",
@@ -44,8 +44,8 @@ function openCard(tileNumber) {
     11: "Black Hole: Gravity collapses all around you. Falling into the endless trapped void.",
     12: "Andromeda Galaxy: You've spent so much time conquering the Milky Way, why stop there? There is no entry to Andromeda, yet. Invest money to have the first expedition.",
     13: "Venus: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That doesn't stop you from conquering the rocky landscape, pay to name volcanoes after yourself.",
-    14: "Mercury: Closest to the sun. No protection, no reward.",
-    15: "Sun: Expansion overheats. Everything melts.",
+    14: "Mercury: The first planet, but also the smallest. Add it to the collection anyway. You are so close to the sun, temperatures are too extreme and depleting resources.",
+    15: "Sun: You flew too close to the sun. You try to attain eternal energy source, but even your expansion cannot conquer the power of nuclear heat.",
     16: "Launch Origin: You set off to conquer beyond the world. Why not, you have the money. But what do you really own? What are you losing? Consider this, and continue on.",
     17: "Moon Landing: Pit stop on the moon. You're not the first person here, but people will know you. Buy the dark side and name it after yourself. The dark side of the moon is now yours, theoretically.",
     18: "Mars: You land on the red planet. You claim the area for possible future construction. But no life is viable here, so you wasted your money.",
