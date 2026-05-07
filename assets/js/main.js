@@ -19,3 +19,11 @@ marsIcon.addEventListener("click", () => {
   let modal = new bootstrap.Modal(document.getElementById('infoModal'));
   modal.show();
 });
+
+
+function openCard(tileNumber) {
+  console.log("Clicked tile:", tileNumber);
+
+  let modal = new bootstrap.Modal(document.getElementById('infoModal'));
+  modal.show();
+}
