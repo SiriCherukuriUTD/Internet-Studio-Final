@@ -43,7 +43,7 @@ function openCard(tileNumber) {
     10: "Pluto: You see Pluto, the once beloved planet, stripped of its planethood and left alone as a ghost asset. You have more in common than you think. Claim Pluto as your own, maybe people will care again.",
     11: "Black Hole: Gravity collapses all around you. Falling into the endless trapped void.",
     12: "Andromeda Galaxy: You've spent so much time conquering the Milky Way, why stop there? There is no entry to Andromeda, yet. Invest money to have the first expedition.",
-    13: "Venus: Atmosphere too toxic for survival. Still marked as conquerable.",
+    13: "Venus: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That doesn't stop you from conquering the rocky landscape, pay to name volcanoes after yourself.",
     14: "Mercury: Closest to the sun. No protection, no reward.",
     15: "Sun: Expansion overheats. Everything melts.",
     16: "Launch Origin: You set off to conquer beyond the world. Why not, you have the money. But what do you really own? What are you losing? Consider this, and continue on.",
