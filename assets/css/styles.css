@@ -6,21 +6,6 @@
   color: white;
 }
 
-#marsIcon {
-  position: fixed;
-  bottom: 300px;
-  left: 30px;
-  width: 100px;
-  cursor: pointer;
-  z-index: 20;
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-#marsIcon:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0 0 10px red);
-}
-
 body {
   margin: 0;
   overflow: hidden;
@@ -115,4 +100,11 @@ body {
     0 0 25px rgba(255, 255, 255, 0.9),
     0 0 60px rgba(252, 181, 93, 0.9),
     inset 0 0 50px rgba(0, 0, 0, 1);
+}
+
+.tile:nth-child(2) {
+  background-image: url("../img/mars.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
