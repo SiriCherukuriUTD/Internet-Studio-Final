@@ -178,26 +178,28 @@ body {
 }
 
 
-.hud {
+.resources,.lives {
   position: fixed;
-  top: 20px;
-  z-index: 50;
-}
-.left-hud {
-  left: 25px;
-}
-.right-hud {
-  right: 25px;
-}
-.hud-box {
+  z-index: 30;
+
   font-family: 'Orbitron', sans-serif;
   color: white;
-
   border: 1px solid rgb(255, 255, 255);
   background: rgba(38, 184, 150, 0.642);
 
-  padding: 10px 15px;
   backdrop-filter: blur(6px);
+  padding: 10px 14px;
+  letter-spacing: 2px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.701);
-  letter-spacing: 1px;
 }
+.resources {
+  top: 140px;
+  right: 780px;
+}
+.lives {
+  top: 140px;
+  right: 260px;
+}
+
+
+
