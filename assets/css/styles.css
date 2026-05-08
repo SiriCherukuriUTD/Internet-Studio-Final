@@ -123,46 +123,48 @@ body {
 }
 .void-tile {
   background-image: url("../img/void.png");
+  background-size: cover;
 }
 .jptmoons-tile {
-  background-image: url("../img/mars.png");
+  background-image: url("../img/jptmoons.png");
 }
 .saturn-tile {
   background-image: url("../img/saturn.png");
 }
 .stnmoons-tile {
-  background-image: url("../img/mars.png");
+  background-image: url("../img/stnmoons.png");
 }
 .uranus-tile {
   background-image: url("../img/uranus.png");
 }
 .oxygen-tile {
-  background-image: url("../img/mars.png");
+  background-image: url("../img/oxygen.png");
 }
 .ice-tile {
-  background-image: url("../img/mars.png");
+  background-image: url("../img/ice.png");
 }
 .neptune-tile {
   background-image: url("../img/neptune.png");
 }
 .kuiper-tile {
-  background-image: url("../img/mars.png");
+  background-image: url("../img/kuiper.png");
 }
 .pluto-tile {
   background-image: url("../img/pluto.png");
 }
 .blackhole-tile {
-  background-image: url("../img/void.png");
+  background-image: url("../img/blackhole.png");
+  background-size: cover;
 }
 .andromeda-tile {
   background-image: url("../img/andromeda.png");
 }
-.venus-tile {
-  background-image: url("../img/venus.png");
+.sun-tile {
+  background-image: url("../img/sun.png");
 }
 .mercury-tile {
   background-image: url("../img/mercury.png");
 }
-.sun-tile {
-  background-image: url("../img/sun.png");
+.venus-tile {
+  background-image: url("../img/venus.png");
 }

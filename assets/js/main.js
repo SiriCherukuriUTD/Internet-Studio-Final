@@ -31,26 +31,26 @@ function openCard(tileNumber) {
 
 function openCard(tileNumber) {
   const messages = {
-    1: "BLACK HOLE VOID: You got sucked into a black hole. Consequences of journeying through deep dark space. Spacetime is warping, time is lost. At least you're not spending more money.",
+    1: "BLACK HOLE VOID: You got sucked into a black hole. Consequences of trying to conquer the infinite. Spacetime is warping, time is lost. At least you're not spending more money.",
     2: "JUPITER MOONS: Buy a few moons, just because you can. They weren't yours, but now you can feel like they are. In reality, nothing has changed.",
     3: "SATURN: You reach Saturn. You can't get through its massive rings of ice and rock. You were here, but nobody will know. You could return home, but nobody will believe you. Conquer on.",
     4: "SATURN MOONS: Jupiter moons weren't enough to satisfy you. Buy a few more, maybe you'll feel accomplished then.",
-    5: "URANUS: You've traveled so far you have reached Uranus. A distant, humongous, icy giant indifferent to your presence.",
+    5: "URANUS: Your expansion traveled so far you have reached Uranus. A distant, humongous, icy giant indifferent to your presence. Its cold, dark, and lonely, will you ever return home?",
     6: "OXYGEN LOSS: Malfunction on your spaceship. Oxygen tanks lost. You face rapid asphyxiation and unconsciousness within 10 seconds.",
-    7: "URANUS ICE EXTRACTION: Using very rare and expensive technology, you extract the icy materials of the planet as proof of your greatness. Too bad it'll probably melt by the time you can show people.",
+    7: "URANUS ICE EXTRACTION: Using very rare and expensive technology, you extract the icy materials of the planet as proof of your greatness. Too bad it'll probably melt by the time you travel home.",
     8: "NEPTUNE: So far away from home, it's dark and cold as ice. The supersonic winds stop you from trekking in deeper. A single orbit takes roughly 165 Earth years. Move on, or be stuck for the rest of your life.",
     9: "KUIPER BELT: Your expidition drifts off to far distances, many resources spent in the process. In the Kuiper Belt, remnants of icy planet leftovers float. A debris field of the forgotten, you are among fragments of nothing.",
     10: "PLUTO: You see Pluto, the once beloved planet, stripped of its planethood and left alone as a ghost asset. You have more in common than you think. Claim Pluto as your own, maybe people will care again.",
-    11: "BLACK HOLE: You've reached a black hole. Gravity collapses all around you. Falling into the endless trapped void.",
+    11: "BLACK HOLE: You're near a black hole. It sucks you in, gravity collapses all around you. Falling into the trapped void.",
     12: "ANDROMEDA GALAXY: You've spent so much time conquering the Milky Way, why stop there? There is no entry to Andromeda, yet. Invest money to have the first expedition.",
-    13: "VENUS: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That won't stop you from conquering the rocky landscape, pay to name volcanoes after yourself.",
+    13: "THE SUN: Flew too close to the sun. You try to attain an eternal energy source, but even your expansion cannot conquer the power of nuclear heat.",
     14: "MERCURY: The first planet, but also the smallest. Add it to the collection anyway. You are so close to the sun, temperatures are too extreme and depleting resources.",
-    15: "THE SUN: Flew too close to the sun. You try to attain an eternal energy source, but even your expansion cannot conquer the power of nuclear heat.",
+    15: "VENUS: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That won't stop you from conquering the rocky landscape, pay to name volcanoes after yourself.",
     16: "LAUNCH ORIGIN: You set off to conquer beyond the world. Why not, you have the money. But what do you really own? What are you losing? Consider this, and continue on.",
-    17: "MOON LANDING: Pit stop on the moon. You're not the first person here, but people will know you. Buy the dark side and name it after yourself. The dark side of the moon is now yours, theoretically.",
-    18: "MARS: You land on the red planet. You claim the area for possible future construction. But no life is viable here, so you wasted your money.",
+    17: "MOON LANDING: Pit stop on the moon. You're not the first person here, but people will know you. Spend money to name the dark side after yourself. The dark side of the moon is now yours, theoretically.",
+    18: "MARS: You land on the red planet. You claim the area for possible future construction. But no life is viable here, guess you wasted your money.",
     19: "ASTEROID BELT: On your way to Jupiter, you must cross and conquer the asteroid belt. But you're rich, buy your way through. Many resources spent to pass the rocky bodies.",
-    20: "JUPITER: You finally make it to the gas giant. Storms raging below, you cannot stand on it. You trademark your visit as proof. More money wasted for false progress."
+    20: "JUPITER: You finally make it to the gas giant. Storms raging below, you cannot stand on it. You've came so far, but there is still so much beyond. Will the expidition ever be enough?"
   };
 
   const fullText = messages[tileNumber] || "Unknown region in space.";
