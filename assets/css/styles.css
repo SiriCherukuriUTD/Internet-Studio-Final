@@ -201,6 +201,39 @@ body {
   right: 260px;
 }
 
+.resources, .lives {
+  transition: 0.2s ease;
+
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+#resourceBox:hover {
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+#resourceBox:hover #money {
+  opacity: 0;
+}
+#resourceBox:hover::after {
+  content: "BANKRUPT";
+  color: red;
+  margin-left: -28px;
+}
+
+#livesBox:hover {
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+#livesBox:hover #lives {
+  opacity: 0;
+}
+#livesBox:hover::after {
+  content: "1";
+  color: red;
+  margin-left: -10px;
+}
+
 
 .active-tile {
   background: rgba(255, 255, 255, 0.518);
