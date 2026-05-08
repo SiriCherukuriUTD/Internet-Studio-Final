@@ -13,6 +13,7 @@ targetElement.addEventListener("mouseout", function () {
 	this.style = "cursor: pointer";
 });
 
+
 const tileMap = {
   1: 16,
   2: 17,
@@ -79,7 +80,7 @@ function openCard(tileNumber) {
     11: "INSTANT DEATH",
     12: "EXPEND RESOURCES: $10M",
     13: "MOVE FORWARD",
-    14: "KEEP GOING",
+    14: "EXPEND RESOURCES: $10M",
     15: "CLAIM: $10M",
     16: "FACE THE DARKNESS",
     17: "INVEST: $10M",
