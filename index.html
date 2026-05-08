@@ -60,11 +60,20 @@
 	  <div class="modal-body">
 		<img src="">
 		<p id="modalText"></p>
+		<button id="actionButton" class="btn btn-light mt-3"> BUY </button>
 	  </div>
     </div>
   </div>
 </div>
 
+	<div class="hud left-hud">
+		<div class="hud-box"> RESOURCES: $<span id="money">100</span>M </div>
+	</div>
+	<div class="hud right-hud">
+		<div class="hud-box"> LIVES: <span id="lives">5</span> </div>
+	</div>
+
+	
 <div class="board">
 	<div class="tile void-tile" onclick="openCard(1)"><span class="tile-number">6</span></div>
 	<div class="tile jptmoons-tile" onclick="openCard(2)"><span class="tile-number">7</span></div>
@@ -91,13 +100,8 @@
 	<div class="tile jupiter-tile" onclick="openCard(20)"><span class="tile-number">5</span></div>
 </div>
 
+
 	<div class="center">
-			<button class="btn btn-light mt-3">Resource Bank:</button>
-			<button class="btn btn-light mt-4">$50 Million</button>
-			<button class="btn btn-light mt-3">Lives:</button>
-			<button class="btn btn-light mt-4">❤️</button>
-			<button class="btn btn-light mt-4">❤️</button>
-			<button class="btn btn-light mt-4">❤️</button>
 		<h1 class="title">
 			<span class="word">
 				<span class="default">MY</span>

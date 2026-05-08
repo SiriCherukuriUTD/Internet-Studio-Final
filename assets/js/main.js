@@ -14,20 +14,12 @@ targetElement.addEventListener("mouseout", function () {
 });
 
 
-const marsIcon = document.getElementById("marsIcon");
-marsIcon.addEventListener("click", () => {
-  let modal = new bootstrap.Modal(document.getElementById('infoModal'));
-  modal.show();
-});
-
-
 function openCard(tileNumber) {
   console.log("Clicked tile:", tileNumber);
 
   let modal = new bootstrap.Modal(document.getElementById('infoModal'));
   modal.show();
 }
-
 
 function openCard(tileNumber) {
   const messages = {
@@ -45,7 +37,7 @@ function openCard(tileNumber) {
     12: "ANDROMEDA GALAXY: You've spent so much time conquering the Milky Way, why stop there? There is no entry to Andromeda, yet. Invest money to have the first expedition.",
     13: "THE SUN: Flew too close to the sun. You try to attain an eternal energy source, but even your expansion cannot conquer the power of nuclear heat.",
     14: "MERCURY: The first planet, but also the smallest. Add it to the collection anyway. You are so close to the sun, temperatures are too extreme and depleting resources.",
-    15: "VENUS: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That won't stop you from conquering the rocky landscape, pay to name volcanoes after yourself.",
+    15: "VENUS: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That won't stop you from conquering the rocky landscape, pay to name volcanic landmarks after yourself.",
     16: "LAUNCH ORIGIN: You set off to conquer beyond the world. Why not, you have the money. But what do you really own? What are you losing? Consider this, and continue on.",
     17: "MOON LANDING: Pit stop on the moon. You're not the first person here, but people will know you. Spend money to name the dark side after yourself. The dark side of the moon is now yours, theoretically.",
     18: "MARS: You land on the red planet. You claim the area for possible future construction. But no life is viable here, guess you wasted your money.",
@@ -54,9 +46,7 @@ function openCard(tileNumber) {
   };
 
   const fullText = messages[tileNumber] || "Unknown region in space.";
-
   const splitText = fullText.split(":");
-
   const title = splitText[0];
   const body = splitText.slice(1).join(":");
 
