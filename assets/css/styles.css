@@ -234,6 +234,35 @@ body {
   margin-left: -10px;
 }
 
+#rollBtn {
+  margin-top: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  background: rgba(241, 24, 227, 0.753);
+  color: #000000;
+
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 6px;
+  font-size: 1.2rem;
+}
+#rollBtn:hover {
+  color: black;
+  background: rgba(241, 24, 227, 0.753);
+
+  box-shadow:
+    0 0 15px #ffffff,
+    inset 0 0 0px rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+#rollResult {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
 
 .active-tile {
   background: rgba(255, 255, 255, 0.518);
