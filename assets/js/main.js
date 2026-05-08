@@ -38,7 +38,6 @@ const tileMap = {
 
 function openCard(tileNumber) {
   console.log("Clicked tile:", tileNumber);
-
   let modal = new bootstrap.Modal(document.getElementById('infoModal'));
   modal.show();
 }
@@ -52,7 +51,7 @@ function openCard(tileNumber) {
     5: "JUPITER: You make it to the gas giant. Storms raging below, you cannot stand on it. You've came so far, but there is still so much beyond. Will the expidition ever be enough?",
     6: "BLACK HOLE VOID: You got sucked into a black hole. Consequences of trying to conquer the infinite. Spacetime is warping, time is lost. At least you're not spending more money.",
     7: "JUPITER MOONS: Buy a few moons, just because you can. They weren't yours, but now you can feel like they are. In reality, nothing has changed.",
-    8: "SATURN: You reach Saturn. You can't get through its massive rings of ice and rock. You were here, but nobody will know. You could return home, but nobody will believe you. Conquer on.",
+    8: "SATURN: You reach Saturn. You can't get through its massive rings of ice and rock. You were here, but nobody will know. You could return home, but nobody will believe you.",
     9: "SATURN MOONS: Jupiter moons weren't enough to satisfy you. Buy a few more, maybe you'll feel accomplished then.",
     10: "URANUS: Your expansion traveled so far you have reached Uranus. A distant, humongous, icy giant indifferent to your presence. Its cold, dark, and lonely, will you ever return home?",
     11: "OXYGEN LOSS: Malfunction on your spaceship. Oxygen tanks lost. You face rapid asphyxiation and unconsciousness within 10 seconds.",
@@ -62,9 +61,31 @@ function openCard(tileNumber) {
     15: "PLUTO: You see Pluto, the once beloved planet, stripped of its planethood and left alone as a ghost asset. You have more in common than you think. Claim Pluto as your own, maybe people will care again.",
     16: "BLACK HOLE: You're near a black hole. It sucks you in, gravity collapses all around you. Falling into the trapped void.",
     17: "ANDROMEDA GALAXY: You've spent so much time conquering the Milky Way, why stop there? There is no entry to Andromeda, yet. Invest money to have the first expedition.",
-    18: "THE SUN: Flew too close to the sun. You try to attain an eternal energy source, but even your expansion cannot conquer the power of nuclear heat.",
+    18: "THE SUN: Flew too close to the sun. You tried to attain an eternal energy source, but your expansion cannot conquer the power of nuclear heat.",
     19: "MERCURY: The first planet, but also the smallest. Add it to the collection anyway. You are so close to the sun, temperatures are too extreme and depleting resources.",
     20: "VENUS: Earth's hot next door neighbor, but not a friendly one. The atmosphere is too thick and too toxic for survival. That won't stop you from conquering the rocky landscape, pay to name volcanic landmarks after yourself.",   
+  };
+  const buttonLabels = {
+    1: "CONTINUE EXPANSION",
+    2: "PURCHASE: $10M",
+    3: "CLAIM: $10M",
+    4: "EXPEND RESOURCES: $10M",
+    5: "CONQUER ON",
+    6: "ACCEPT FATE",
+    7: "PURCHASE: $10M",
+    8: "CONQUER ON",
+    9: "PURCHASE: $10M",
+    10: "CONQUER ON",
+    11: "INSTANT DEATH",
+    12: "EXPEND RESOURCES: $10M",
+    13: "MOVE FORWARD",
+    14: "KEEP GOING",
+    15: "CLAIM: $10M",
+    16: "FACE THE DARKNESS",
+    17: "INVEST: $10M",
+    18: "INSTANT DEATH",
+    19: "CLAIM: $10M",
+    20: "PURCHASE: $10M"
   };
 
   const fullText = messages[tileNumber] || "Unknown region in space.";
@@ -78,6 +99,10 @@ function openCard(tileNumber) {
   const modal = new bootstrap.Modal(document.getElementById("infoModal"));
    clearHighlight();
    modal.show();
+   document.getElementById("modalText").innerText =
+   messages[tileNumber];
+   document.getElementById("modalButton").innerText =
+   buttonLabels[tileNumber];
 }
 
 
