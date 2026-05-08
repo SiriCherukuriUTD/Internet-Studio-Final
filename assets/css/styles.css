@@ -202,4 +202,15 @@ body {
 }
 
 
+.active-tile {
+  background: rgba(255, 255, 255, 0.518);
+  box-shadow:
+    0 0 10px #ffffff,
+    0 0 25px #ffffff;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+
+
 

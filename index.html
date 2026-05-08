@@ -75,29 +75,29 @@
 
 
 <div class="board">
-	<div class="tile void-tile" onclick="openCard(1)"><span class="tile-number">6</span></div>
-	<div class="tile jptmoons-tile" onclick="openCard(2)"><span class="tile-number">7</span></div>
-	<div class="tile saturn-tile" onclick="openCard(3)"><span class="tile-number">8</span></div>
-	<div class="tile stnmoons-tile" onclick="openCard(4)"><span class="tile-number">9</span></div>
-	<div class="tile uranus-tile" onclick="openCard(5)"><span class="tile-number">10</span></div>
-	<div class="tile oxygen-tile" onclick="openCard(6)"><span class="tile-number">11</span></div>
+	<div class="tile void-tile" onclick="openCard(6)"><span class="tile-number">6</span></div>
+	<div class="tile jptmoons-tile" onclick="openCard(7)"><span class="tile-number">7</span></div>
+	<div class="tile saturn-tile" onclick="openCard(8)"><span class="tile-number">8</span></div>
+	<div class="tile stnmoons-tile" onclick="openCard(9)"><span class="tile-number">9</span></div>
+	<div class="tile uranus-tile" onclick="openCard(10)"><span class="tile-number">10</span></div>
+	
+	<div class="tile oxygen-tile" onclick="openCard(11)"><span class="tile-number">11</span></div>
+	<div class="tile ice-tile" onclick="openCard(12)"><span class="tile-number">12</span></div>
+	<div class="tile neptune-tile" onclick="openCard(13)"><span class="tile-number">13</span></div>
+	<div class="tile kuiper-tile" onclick="openCard(14)"><span class="tile-number">14</span></div>
+	<div class="tile pluto-tile" onclick="openCard(15)"><span class="tile-number">15</span></div>
 
-	<div class="tile ice-tile" onclick="openCard(7)"><span class="tile-number">12</span></div>
-	<div class="tile neptune-tile" onclick="openCard(8)"><span class="tile-number">13</span></div>
-	<div class="tile kuiper-tile" onclick="openCard(9)"><span class="tile-number">14</span></div>
-	<div class="tile pluto-tile" onclick="openCard(10)"><span class="tile-number">15</span></div>
+	<div class="tile blackhole-tile" onclick="openCard(16)"><span class="tile-number">16</span></div>
+	<div class="tile andromeda-tile" onclick="openCard(17)"><span class="tile-number">17</span></div>
+	<div class="tile sun-tile" onclick="openCard(18)"><span class="tile-number">18</span></div>
+	<div class="tile mercury-tile" onclick="openCard(19)"><span class="tile-number">19</span></div>
+	<div class="tile venus-tile" onclick="openCard(20)"><span class="tile-number">20</span></div>
 
-	<div class="tile blackhole-tile" onclick="openCard(11)"><span class="tile-number">16</span></div>
-	<div class="tile andromeda-tile" onclick="openCard(12)"><span class="tile-number">17</span></div>
-	<div class="tile sun-tile" onclick="openCard(13)"><span class="tile-number">18</span></div>
-	<div class="tile mercury-tile" onclick="openCard(14)"><span class="tile-number">19</span></div>
-	<div class="tile venus-tile" onclick="openCard(15)"><span class="tile-number">20</span></div>
-	<div class="tile launch-tile" onclick="openCard(16)"><span class="tile-number">1</span></div>
-
-	<div class="tile moon-tile" onclick="openCard(17)"><span class="tile-number">2</span></div>
-	<div class="tile mars-tile" onclick="openCard(18)"><span class="tile-number">3</span></div>
-	<div class="tile asteroid-tile" onclick="openCard(19)"><span class="tile-number">4</span></div>
-	<div class="tile jupiter-tile" onclick="openCard(20)"><span class="tile-number">5</span></div>
+	<div class="tile launch-tile" onclick="openCard(1)"><span class="tile-number">1</span></div>
+	<div class="tile moon-tile" onclick="openCard(2)"><span class="tile-number">2</span></div>
+	<div class="tile mars-tile" onclick="openCard(3)"><span class="tile-number">3</span></div>
+	<div class="tile asteroid-tile" onclick="openCard(4)"><span class="tile-number">4</span></div>
+	<div class="tile jupiter-tile" onclick="openCard(5)"><span class="tile-number">5</span></div>
 </div>
 
 
@@ -109,8 +109,8 @@
 			</span>
 			SPACE
 		</h1>
-		<button class="btn btn-light mt-3" onclick="roll()">#</button>
-		<p id="rollResult" class="mt-2"></p>
+		<button onclick="roll()">ROLL</button>
+		<div id="rollResult" class="dice-display">#</div>
 	</div>
 
 	<script src="./assets/js/main.js"></script>
