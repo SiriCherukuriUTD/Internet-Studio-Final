@@ -37,12 +37,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .tile:hover {
   background: rgba(0, 247, 255, 0.2);
   box-shadow: 0 0 12px #00f7ff;
 }
-
 .tile-number {
   position: absolute;
   bottom: 6px;

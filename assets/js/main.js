@@ -78,7 +78,7 @@ function openCard(tileNumber) {
     9: "PURCHASE: $10M",
     10: "CONQUER ON",
     11: "INSTANT DEATH",
-    12: "EXPEND RESOURCES: $10M",
+    12: "CLAIM: $10M",
     13: "MOVE FORWARD",
     14: "EXPEND RESOURCES: $10M",
     15: "CLAIM: $10M",
@@ -96,14 +96,21 @@ function openCard(tileNumber) {
 
   document.getElementById("modalTitle").innerText = title;
   document.getElementById("modalText").innerText = body;
+  document.getElementById("modalButton").innerText =
+   buttonLabels[tileNumber];
 
   const modal = new bootstrap.Modal(document.getElementById("infoModal"));
    clearHighlight();
    modal.show();
-   document.getElementById("modalText").innerText =
-   messages[tileNumber];
-   document.getElementById("modalButton").innerText =
-   buttonLabels[tileNumber];
+   
+   const modalElement = document.getElementById("infoModal");
+   modalElement.addEventListener("hidden.bs.modal", function () {
+   if (currentTile === 16) {
+    highlightTile(6);
+    currentTile = 6; 
+  }
+
+});
 }
 
 
